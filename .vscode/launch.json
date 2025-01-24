@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+    
+      
+      {
+        "name": "Django",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/manage.py",
+        "args": [
+          "test_cmd"
+        ],
+        "django": true,
+        "env": {
+          "DJANGO_SETTINGS_MODULE": "home_find.settings"
+        },
+        "console": "integratedTerminal"
+      }
+    ]
+  }
+  
