@@ -32,18 +32,3 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
 }
 
-###---database_config
-database_config = {
-    "default": {
-        "ENGINE": "django.db.backends.mysql",
-        "NAME": "home_find",
-        "USER": "Elaina",
-        "PASSWORD": "Elaina",
-        "HOST": "192.168.1.175",
-        "PORT": "42356",
-    }
-}
-###---database_config
-
-EMAIL="z861092684@gmail.com"
-MAILPASS = "rcrdbuojyoufpjbk"
